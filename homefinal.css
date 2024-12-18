@@ -1,0 +1,235 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+  overflow: hidden;
+}
+.noter
+{
+    margin-top: 1em;
+  height: 55%;
+   width: 35vw;
+    margin-left: 4em;
+
+border: 5px solid rgb(95, 157, 168);
+}
+.border
+{
+    margin-top: 5vw;         
+    margin-left: 5vw;      
+animation: show 2s 1 ease;
+}
+.container1
+{
+ background-image: linear-gradient(to right,rgb(140, 51, 167) ,rgb(245, 7, 245));
+height: 55px;
+display: flex;
+text-align: center;
+margin-left: 7px;
+margin-right: 7px;
+margin-top: 7px;
+}
+.text
+{
+    color: rgb(56, 157, 252);
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bars
+{
+  display: flex;
+ justify-content: end;
+ height: 100%;
+ width: 100%;
+ align-items: center;
+ margin-right: 10px;
+ word-spacing: 5px;
+}
+.J
+{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.home
+{
+    color: rgb(70, 180, 253);
+    border:  1px solid rgb(104, 204, 243);
+     font-size: 20px;
+     border-radius: 20%;
+     padding: 3px;
+   box-shadow: 1px 1px 15px 1px blue;
+    background-color: lightblue;
+    padding: 7px;
+    font-weight: 1000px;
+}
+.ab
+{
+    color: rgb(121, 182, 252);
+    border:  1px dotted rgb(96, 203, 253);
+     font-size: 20px;
+     border-radius: 5px;
+     padding: 3px;
+    border-radius: 20%;
+    padding: 3px;
+   background-color: transparent;
+   padding: 7px;
+}
+.logout
+{
+    color: rgb(78, 158, 250);
+    border:  1px dotted rgb(82, 176, 253);
+     font-size: 20px;
+     border-radius: 5px;
+     padding: 3px;
+    border-radius: 20%;
+    padding: 3px;
+   background-color: transparent;
+   padding: 7px;
+}
+.gal
+{
+    color: rgb(96, 218, 248);
+    border:  1px dotted rgb(106, 221, 250);
+     font-size: 20px;
+     border-radius: 5px;
+     padding: 3px;
+    border-radius: 20%;
+    padding: 3px;
+   background-color: transparent;
+   padding: 7px;  
+}
+a{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+@keyframes show
+{
+ 0%,
+ 25%
+ {
+margin-left: -200em;
+ }
+ 100%
+ {
+ transform: translateX(25px)
+ 
+ }
+ 
+}
+@keyframes raid
+ {
+    100%
+    {
+        border-radius: 50%;
+    }
+    75%
+    {
+        border-radius: 30%;
+    }
+    50%
+    {
+        border-radius: 20%;
+    }
+    35%
+    {
+        border-radius: 0%;
+        transform: rotate(10deg);
+        } 
+ }
+ @keyframes hollow
+ {
+100%
+{
+    transform: translateY(0px);
+}
+50%
+{
+transform: translateY(-20px);
+color: red;
+}
+ }
+.image{
+max-width: 100%;
+    background-image:url('https://onemangaday.dexp.in/pic/tutorials/park/OneMangaDay-Park-05.jpg');
+ background-size:cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-bottom: 0px;
+}.texts:hover
+{
+   cursor: pointer; 
+ 
+}.texttype
+{
+    margin-top: 100px;
+    color: rgb(2, 38, 59);
+}.nope
+{
+    display: flex;
+    
+}.head
+{
+    font-size:3.5vw;
+    animation: hollow 2s infinite;
+}.body
+{
+    font-size: clamp(1rem, 10vw, 3.5vw); 
+    color:yellow;
+    opacity: .7;
+}.con{
+    opacity: .5;
+font-size: 2vw;
+}.logout:hover{
+    background-color: yellow;
+        box-shadow: 0px 0px 15px 0 yellow;
+        color: aliceblue;
+}.ab:hover{
+    background-color: yellow;
+        box-shadow: 0px 0px 15px 0 yellow;
+        color: aliceblue;
+}.gal:hover{
+    background-color:yellow ;
+        box-shadow: 0px 0px 15px 0 yellow;
+        color: aliceblue;
+}.pic1,.pic2,.pic3
+{
+   max-width: 55px;
+ 
+}.tp{ 
+    display: flex;
+    width: 100%;   
+    max-width: 100%;
+    flex-wrap: wrap;       /* Allow items to wrap on smaller screens */
+    gap: 1em;    
+}.num
+{
+    margin-left:1em;
+    margin-top: 1em;
+}.pic2,.pic3
+{
+    margin-left:1em;
+}a.link
+{
+
+    display: flex;
+    flex-direction: row;
+}.num:hover
+{
+scale:1.1;
+border-bottom:  solid 2px;
+}.border
+{
+    max-width: 900px;
+}
+.texttype
+{
+    gap: 2em;
+    margin-top: 10%;
+   margin-left: 3%;
+width: 50%;
+}
